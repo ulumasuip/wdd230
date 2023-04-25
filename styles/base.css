@@ -1,0 +1,13 @@
+/* html selectors */
+h1 {
+    color: aqua;
+}
+/* class selectors */
+.name {
+    color: green;
+}
+
+/* id selectors */
+#not {
+    color: black;
+}
