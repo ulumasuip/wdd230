@@ -1,2 +1,2 @@
-alert(document.lastModified);
-let oLastModif = new Date(document.lastModified);
+document.querySelector("#year").innerHTML = new Date().getFullYear;
+document.querySelector("#lastModified").innerHTML = document.lastModified;

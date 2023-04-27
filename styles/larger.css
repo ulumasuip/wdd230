@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dongle:wght@300;400;700&display=swap');
 
-h1{
-    
+h1 img{
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
 }
 header{
     font-family: "Crimson Text";
@@ -15,15 +17,10 @@ header{
     padding: 20px;
     width: 50%;
     margin: auto;
+    border-radius: 25px;
 }
 body{
     background-color: #FFFD98;
-}
-main{
-    background-color: #BDE4A7;
-    padding: 20px;
-    width: 50%;
-    margin: auto;
 }
 nav{
     margin: 0 auto;
@@ -47,11 +44,30 @@ nav a:hover{
     color: #9FBBCC;
     background-color: black;
 }
+main{
+    background-color: #BDE4A7;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 25px;
+}
+h2{
+    font-family: "Crimson Text";
+    text-decoration: underline;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1em;
+    background-color: #9FBBCC;
+    border-radius: 25px;
+    margin: auto;
+}
 section{
-    background-color: #B3D2B2;
-    
-    padding: 10px;
+    background-color: #BDE4A7;
     list-style-type: none;
+    text-align: center;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 section ul{
     list-style-type: none;
@@ -61,30 +77,28 @@ h3{
     text-align: center;
     background-color: #9FBBCC;
 }
-.card{
-    float: left;
-    width: 70%;
+.card h3, .info h3{
     padding: 10px;
-    height: 300px;
+    margin: 0 auto auto auto;
+    border-radius: 25px;
 }
-.info:after {
-    content: "";
-    display: table;
-    clear: both;
+.card{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #FFFD98;
+    border-radius: 25px;
+    padding: 10px;
+}
+.info{
+    background-color: #FFFD98;
+    border-radius: 25px;
+    padding: 10px;
+    
 }
 p{
     text-align: center;
     font-family: "Dongle";
 }
-h2{
-    font-family: "Crimson Text";
-    text-decoration: underline;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 1em;
-    background-color: #9FBBCC;
-}
-
 footer, p{
     font-family: "Crimson Text";
 }
