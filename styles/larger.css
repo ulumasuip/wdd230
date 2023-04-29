@@ -41,8 +41,8 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: #9FBBCC;
-    background-color: black;
+    color: #FFFD98;
+    background-color: #9FBBCC;
 }
 main{
     background-color: #BDE4A7;
@@ -62,6 +62,7 @@ h2{
     margin: auto;
 }
 div{
+    display: flex;
     display: grid;
     grid-template-columns: auto auto auto;
 }

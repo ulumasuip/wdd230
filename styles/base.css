@@ -4,9 +4,13 @@
         display: inline;
         justify-content: space-evenly;
         flex: 1 1 100%;
+        flex-direction: column;
+        text-align: center;
     }
     div{
-        display: block;
+        display: inline;
+        flex: 1 1 100%;
+        flex-direction: column;
     }
 }
 
