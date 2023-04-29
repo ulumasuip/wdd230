@@ -62,7 +62,6 @@ h2{
     margin: auto;
 }
 div{
-    display: flex;
     display: grid;
     grid-template-columns: auto auto auto;
 }
