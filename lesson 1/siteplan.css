@@ -1,14 +1,62 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Noto+Serif+JP&display=swap');
+h1{
+    text-align: center;
+}
 h2{
     text-align: center;
 }
 p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+   text-align: center;
 }
-
 ul{
     list-style-type: none;
+}
+.colors{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.primary{
+    font-size: large;
+    color: white;
+    padding: 1em;
+    background-color: #0073bd;
+}
+.secondary1{
+    font-size: large;
+    color: black;
+    padding: 1em;
+    background-color: #E7DFC6;
+}
+.secondary2{
+    font-size: large;
+    color: white;
+    padding: 1em;
+    background-color: #1B998B;
+}
+.background{
+    font-size: large;
+    color: white;
+    padding: 1em;
+    background-color: #A799B7;
+}
+.type{
+    font-size: large;
+    color: white;
+    padding: 1em;
+    background-color: #02040F;
+}
+.typeface1{
+    font-size: large;
+    font-family: 'Noto Serif JP', serif;
+}
+.typeface2{
+    font-size: large;
+    font-family: 'DM Sans', sans-serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
