@@ -7,6 +7,7 @@ body {
     background-color: #2D4654;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto 1fr auto;
+    grid-row-gap: 1em;
     min-height: 100vh;
 }
 header{
@@ -37,9 +38,11 @@ main{
     grid-column-end: 4;
     font-family: 'Montagu Slab', serif;
     background-color: #C7CEDB;
+    border-radius: 2em;
 }
 h3{
     background-color: #94849B;
+    
 }
 .card{
     text-align: center;
