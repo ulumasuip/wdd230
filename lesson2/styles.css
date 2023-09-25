@@ -38,9 +38,18 @@ main{
     grid-column-start: 3;
     grid-column-end: 4;
 }
+
+img{
+    margin-top: 2rem;
+}
+
 .card{
     text-align: center;
     background-color: #7E9181;
+    font-family: Lato;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 footer{
     text-align: center;
