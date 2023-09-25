@@ -19,7 +19,6 @@ header{
     grid-column-end: 4;
 }
 nav{
- 
     background-color: #94849B;
     font-family: 'Montagu Slab', serif;
     grid-column-start: 3;
@@ -28,7 +27,6 @@ nav{
 nav a{
     text-align: center;
     display: block;
- 
     color: #000000;
     font-size: x-large;
 }
