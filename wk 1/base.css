@@ -45,6 +45,9 @@ h3{
 .card{
     text-align: center;
     background-color: #7E9181;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .weeks{
     text-align: left;
