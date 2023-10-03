@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montagu+Slab:opsz,wght@16..144,300&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -25,11 +26,20 @@ nav{
     grid-column-end: 4;
 }
 nav a{
-    text-align: center;
-    display: block;
     color: #000000;
     font-size: x-large;
+    border: #000000;
+    flex: 1 1 100%;
 }
+nav li{
+    display: inline;
+    justify-content: space-around;
+
+}
+nav a:hover {
+	border: 1px solid #fff;
+}
+
 main{
     text-align: center;
     grid-column-start: 3;
@@ -62,4 +72,9 @@ footer{
     grid-column-start: 3;
     grid-column-end: 4;
     font-family: 'Montagu Slab', serif;
+}
+
+/*mobile*/
+nav ul{
+    list-style-type: none;
 }
