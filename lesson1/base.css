@@ -26,15 +26,17 @@ nav{
     grid-column-end: 4;
 }
 nav a{
+    display: inline;
     color: #000000;
     font-size: x-large;
     border: #000000;
-    flex: 1 1 100%;
-}
-nav li{
-    display: inline;
     justify-content: space-around;
-
+}
+.navlink{
+    float: left;
+}
+nav ul{
+    list-style: none;
 }
 nav a:hover {
 	border: 1px solid #fff;
@@ -75,6 +77,8 @@ footer{
 }
 
 /*mobile*/
-nav ul{
-    list-style-type: none;
+@media (max-width: 649px){
+    nav li a{
+        display: block;
+    }
 }
