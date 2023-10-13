@@ -32,11 +32,9 @@ nav a{
     border: #000000;
     justify-content: space-around;
 }
-.navlink{
-    float: left;
-}
+
 nav ul{
-    list-style: none;
+    list-style-type: none;
 }
 nav a:hover {
 	border: 1px solid #fff;
@@ -78,5 +76,13 @@ footer{
 
 /*mobile*/
 @media (max-width: 700px){
-    
+    .navlink a{
+        display: flex;
+        text-align: center;
+    }
+    .navul{
+        display: block;
+        list-style-type: none;
+    }
+
 }

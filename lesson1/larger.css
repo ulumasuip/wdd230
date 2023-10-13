@@ -1,8 +1,10 @@
 @media (min-width: 701px){
     nav ul{
         display: flex;
+        
     }
     nav ul li{
         flex: 1 1 100%;
+        justify-content: space-around;
     }
 }
