@@ -77,8 +77,6 @@ footer{
 }
 
 /*mobile*/
-@media (max-width: 649px){
-    nav li a{
-        display: block;
-    }
+@media (max-width: 700px){
+    
 }
