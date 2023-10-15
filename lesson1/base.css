@@ -60,7 +60,6 @@ h3{
 .card{
     text-align: center;
     background-color: #7E9181;
-    border-radius: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -136,6 +135,11 @@ footer{
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
         background-color: white;
+    }
+    
+    .weeks{
+        text-align: center;
+        padding-left: 0%;
     }
 
 }
