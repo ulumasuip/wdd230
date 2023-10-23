@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montagu+Slab:opsz,wght@16..144,300&display=swap');
+
+body {
+    display: flex;
+    background-color: #F1FAEE;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cityimg{
+    display: inline;
+}
+header{
+    font-size: 50pt;
+    font-family: 'Montagu Slab', serif;
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #fd5200;
+    padding-top: 1em;
+    font-weight: bold;
+}
+nav{
+    background-color: #5A9367;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 80%;
+    color: #F1FAEE;
+    font-size: 18pt;
+}
+.navul{
+    list-style-type: none;
+    
+}
+.navlink{
+    display: inline;
+    
+}
+.navlink a{
+    color: #F1FAEE;
+    
+}
+.navlink a:hover{
+    color: #fd5200;
+    background-color: #F1FAEE;
+}
+h1{
+    font-size: 40pt;
+    font-family: 'Montagu Slab', serif;
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #fd5200;
+}
+main{
+    float: right;
+}
+h2{
+    font-size: 30pt;
+    font-family: 'Montagu Slab', serif;
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #fd5200;
+    font-weight: semi-bold;
+}
