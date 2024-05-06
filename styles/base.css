@@ -35,11 +35,12 @@ h2{
 
 h3{
   background-color: #05F140;
+  margin: 0px;
 }
 section{
   background-color: #2CDA9D;
   border: 1px solid #297045;
-  padding: 2em;
+  margin-top: 2em;
 }
 .item1 { grid-area: header; }
 .item2 { grid-area: nav; }
