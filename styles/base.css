@@ -5,6 +5,41 @@ body{
     margin: auto;
     max-width: 500px;
     text-align: center;
+    background-color: #BBB5BD;
+}
+img{
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+h1{
+  font-family: Lora;
+  font-size: 30px;
+  background-color: #2CDA9D;
+}
+nav{
+  background-color: #1E212B;
+  
+}
+nav a{
+  font-family: Lato;
+  font-size: 15px;
+  color: #BBB5BD;
+  display: block;
+}
+
+h2{
+  font-family: Lora;
+  font-size: 30px;
+}
+
+h3{
+  background-color: #05F140;
+}
+section{
+  background-color: #2CDA9D;
+  border: 1px solid #297045;
+  padding: 2em;
 }
 .item1 { grid-area: header; }
 .item2 { grid-area: nav; }
