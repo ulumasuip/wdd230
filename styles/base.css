@@ -42,6 +42,13 @@ section{
   border: 1px solid #297045;
   margin-top: 2em;
 }
+section li{
+  list-style-type: none;
+  text-align: center;
+}
+section ul{
+  padding: 0px;
+}
 .item1 { grid-area: header; }
 .item2 { grid-area: nav; }
 .item3 { grid-area: main; }
