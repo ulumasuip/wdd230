@@ -10,7 +10,7 @@ body{
 img{
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  width: 400px;
 }
 h1{
   font-family: Lora;
@@ -54,14 +54,19 @@ section{
 section ul{
   padding: 0px;
 }
-section li{
-  list-style-type: none;
-  text-align: center;
-}
-section li a{
-  color: #000000;
-  text-decoration: none;
-}
-section li  a:hover {
-	text-decoration:underline;
+section a{
+    color: #000000;
+    text-decoration: none;
+  }
+section a:hover {
+      text-decoration:underline;
+  }
+  
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
 }
