@@ -37,6 +37,7 @@ nav a {
 nav a:hover {
 	text-decoration:underline;
 }
+
 h2{
   font-family: Lora;
   font-size: 30px;
@@ -46,6 +47,7 @@ h3{
   background-color: #05F140;
   margin: 0px;
 }
+
 section{
   background-color: #2CDA9D;
   border: 1px solid #297045;
@@ -62,11 +64,22 @@ section a:hover {
       text-decoration:underline;
   }
   
-@media (min-width: 640px) {
+@media (min-width: 899px) {
 	nav ul {
 		display: flex;
 	}
 	nav ul li {
 		flex: 1 1 100%;
 	}
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
 }
