@@ -16,6 +16,8 @@ h1{
   font-family: Lora;
   font-size: 30px;
   background-color: #2CDA9D;
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 #menu {
 	display: block;
@@ -23,8 +25,8 @@ h1{
 	font-weight:700;
 	text-decoration: none;
 	padding: .5rem .75rem;
-	background-color: #05F140
-	color: #1e212b;;
+	background-color: #1e212b;
+	color: #bbb5bd;
 }
 
 #menu::before {
@@ -63,7 +65,7 @@ nav {
 }
 
 #menu.show::before {
-	content: "X";
+	content: "x";
 }
 
 nav {
@@ -86,6 +88,10 @@ nav a {
 nav a:hover {
 	text-decoration:underline;
 }
+.before::before {
+	content: "🏡";
+}
+
 h2{
   font-family: Lora;
   font-size: 30px;
@@ -113,4 +119,10 @@ section li a{
 }
 section li  a:hover {
 	text-decoration:underline;
+}
+
+@media only screen and (max-width: 800px){
+  iframe{
+    display: none;
+  }
 }
