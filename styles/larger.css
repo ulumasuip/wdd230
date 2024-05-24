@@ -1,8 +1,17 @@
-@media (min-width: 640px) {
-	nav ul {
+@media only screen and (min-width: 800px) {
+	#menu {
+		display: none;
+	}
+	.navigation {
 		display: flex;
 	}
-	nav ul li {
+	.navigation li {
+		display: block; /* change state in small view */
 		flex: 1 1 100%;
 	}
+	.navigation a {
+		text-align: center;
+	}
+	
 }
+	
