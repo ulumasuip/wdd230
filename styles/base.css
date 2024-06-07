@@ -111,7 +111,8 @@ section ul{
 }
 section li{
   list-style-type: none;
-  text-align: center;
+  text-align: left;
+  padding-left: 2em;
 }
 section li a{
   color: #000000;
