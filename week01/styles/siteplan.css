@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montagu+Slab:opsz,wght@16..144,300&display=swap');
+
+body {
+    display: flex;
+    background-color: #fd5200;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    font-size: xx-large;
+    font-family: 'Montagu Slab', serif;
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 50%;
+    background-color: #f1faee;
+}
+nav{
+    background-color: #494947;
+    font-family: 'Montagu Slab', serif;
+    height: auto;
+    width: 50%;
+}
+nav a{
+    display: inline;
+    color: #f1faee;
+    font-size: x-large;
+    border: #000000;
+    justify-content: space-evenly;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+	color: #5A9367;
+}
+nav .active{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.navul{
+    text-align: center;
+    padding: 0%;
+}
+main{
+    background-color: #5A9367;
+    height: auto;
+    width: 50%;
+}
+h1{
+    font-family: 'Montagu Slab', serif;
+    text-align: center;
+    font-size: x-large;
+    margin: 1rem 0;
+}
+p{
+    font-family: lato;
+}
+.purpose{
+    text-align: center;
+    font-size: large;
+}
+ul li{
+    font-family: lato;
+    list-style-type: none;
+    font-size: large;
+}
+.colors{
+    text-align: center;
+    font-size: large;
+}
+div{
+    margin: auto;
+}
+.color1{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: #fd5200;
+    outline-style: solid;
+    outline-color: #000000;
+}
+.color2{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: #5A9367;
+    outline-style: solid;
+    outline-color: #000000; 
+}
+.color3{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: #439A86;
+    outline-style: solid;
+    outline-color: #000000; 
+}
+.color4{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: #F1FAEE;
+    outline-style: solid;
+    outline-color: #000000; 
+}
+.color5{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: #494947;
+    outline-style: solid;
+    outline-color: #000000; 
+}
+span{
+    font-family: lato;
+    background-color: #F1FAEE;
+}
+.typog{
+    text-align: center;
+    font-size: large;
+}
+.wireimg{
+   text-align: center;
+}
