@@ -5,15 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#darkBtn{
+    position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+header{
+    text-align: center;
+    position: relative;
+}
 body{
     background-color: #00B8F1;
 }
-
-header{
-    text-align: center;
-}
-
 nav{
     background-color: #FA7ECD;
 }
