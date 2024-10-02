@@ -8,7 +8,7 @@
     <meta name="description" content="WDD 230 - Web Frontend Development, Ulumasui Pe'a, course assignment portal">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images\favicon.ico">
     <meta property="og:title" content="WDD 230 Home Page" />
     <meta property="og:description" content="Home Page for WDD 230 course work" />
     <meta property="og:image" content="images/profile.jpg" />
@@ -17,10 +17,11 @@
     <header>
         <img src="images/profile.jpg" alt="me on drums" width="75" height="100">
         <span>Ulumasui Pe'a</span>
-        <img src="images/dark.svg" alt="dark mode" id="darkBtn" width="44px" height="44px">
+        <button onclick="darkButton()">
+            <img src="images/dark.svg" alt="dark mode" id="darkBtn" width="44px" height="44px">
+        </button>
     </header>
     <nav>
-        <button id="myButton">&#9776;</button>
         <ul class="menuLinks">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="chamber/index.html">Chamber</a></li>
@@ -53,6 +54,7 @@
         <p>	&#169; Ulumasui Pe'a California,U.S.A.</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/darkBtn.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/getDates.js"></script>
 </body>

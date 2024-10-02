@@ -9,9 +9,12 @@
     position: absolute;
 	top: 1rem;
 	right: 1rem;
-	font-size: 3rem;
 	cursor: pointer;
 	font-size: 2rem;
+}
+.dark-mode {
+    background-color: black;
+    color: #00B8F1;
 }
 header{
     text-align: center;
