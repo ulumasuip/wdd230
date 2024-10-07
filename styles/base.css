@@ -42,7 +42,7 @@ ul.menuLinks li a{
     font-family: "Gowun Batang", serif;
 }
 nav .active{
-    background-color: rgba(248,229,146,0.9);
+    background-color: rgba(6, 19, 8, 0.555);
 }
 ul.menuLinks{
     display: none;
@@ -58,7 +58,7 @@ nav a{
     font-family: "Gowun Batang", serif;
     font-weight: 700;
     display: block;
-    color: #3A404C;
+    color: #ffffff;
     padding: .5rem;
     text-align: center;
     text-decoration: none;
@@ -93,7 +93,7 @@ h1{
     font-family: "Saira Condensed", sans-serif;
     font-weight: 500;
     background-color: #FA7ECD;
-    color: #3A404C;
+    color: #ffffff;
     display: block;
     text-align: center;
     padding: .75rem 0;
