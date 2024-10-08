@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The City of Orange Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Orange Chamber of Commerce" />
     <meta property="og:description" content="Home Page for WDD 230 course work" />
@@ -13,19 +15,40 @@
 </head>
 <body>
     <header>
-        <div class="heroImg">
-            <div class="heroText">
-              <h1>The City of Orange</h1>
-              <p>Chamber of Commerce</p>
-            </div>
-          </div>
     </header>
-    <nav></nav>
+    <nav>
+        <ul class="menuLinks">
+            <li><a href="/index.html">Home</a></li>
+            <li class="active"><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form">Form</a></li>
+        </ul>
+    </nav>
+    <div class="heroImage">
+        <div class="heroText">
+          <h1>The City of Orange</h1>
+          <p>Chamber of Commerce</p>
+        </div>
+      </div>
     <main>
         <div>
             <button>Join</button>
         </div>
+        <span>
+            <h2>Current Events</h2>
+        </span>
+        <span>
+            <h2>Weather</h2>
+        </span>
+        <span>
+            <h2>Spotlight</h2>
+        </span>
     </main>
-    <footer></footer>
+    <footer>
+        <p>	&#169; Ulumasui Pe'a wdd230 Class Project</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>
