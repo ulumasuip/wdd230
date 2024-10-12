@@ -55,8 +55,8 @@ ul.open.menuLinks{
   margin: 0px;
 }
 /* The hero image */
+
 .heroImage {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/chamber/images/orangehero.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,7 +85,6 @@ ul.open.menuLinks{
   margin: 50px;
   box-shadow: #494947 0px 0px 3px 3px;
 }
-
 button:hover {
   background-color: #555;
   color: white;
