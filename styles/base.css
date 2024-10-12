@@ -28,9 +28,8 @@ nav{
 }
 #myButton{
     font-size: 2rem;
-    background: none;
     border: none;
-    color: #ffffff;
+    background-color: #FA7ECD;
     cursor: pointer;
     width: 100%;
     text-align: center;
@@ -48,8 +47,12 @@ ul.menuLinks{
     display: none;
     list-style-type: none;
 }
-#myButton.open::before{
-    content: "x";
+#myButton::before {
+	content: "☰";
+}
+
+#myButton.open::before {
+	content: "X";
 }
 ul.open.menuLinks{
     display: block;

@@ -21,16 +21,26 @@ nav a{
 }
 nav li a:hover {
   background-color: #f1faee;
-color: #494947;
+  color: #494947;
 }
 nav .active{
   background-color: rgba(255,255,255,0.2);
 }
-#myButton.open::before{
-  content: "x";
+#myButton{
+  font-size: 2rem;
+  border: none;
+  background-color: #494947;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: .25rem 2vw;
 }
-ul.open.menuLinks{
-  display: block;
+#myButton::before {
+	content: "☰";
+}
+#myButton.open::before{
+  content: "X";
+  color: #f1faee;
 }
 ul.menuLinks{
   display: none;
@@ -41,6 +51,8 @@ ul.menuLinks{
 }
 ul.open.menuLinks{
   display: block;
+  padding: 0px;
+  margin: 0px;
 }
 /* The hero image */
 .heroImage {
@@ -61,7 +73,7 @@ ul.open.menuLinks{
   transform: translate(-50%, -50%);
   color: white;
 }
-button {
+#actionButton {
   border: none;
   outline: 0;
   display: inline-block;
@@ -70,6 +82,8 @@ button {
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
+  margin: 50px;
+  box-shadow: #494947 0px 0px 3px 3px;
 }
 
 button:hover {
