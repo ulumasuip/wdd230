@@ -139,6 +139,18 @@ h1{
     font-weight: 700;
     padding: 10px;
 }
+
+.label {
+	font-family: "Gowun Batang", serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
 iframe{
     width: 100%;
 }
