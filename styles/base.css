@@ -139,7 +139,9 @@ h1{
     font-weight: 700;
     padding: 10px;
 }
-
+iframe{
+    width: 100%;
+}
 footer{
     text-align: center;
 }
