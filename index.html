@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="me on drums" width="75" height="100">
+        <img src="images/profile.webp" alt="me on drums" width="75" height="100">
         <span>Ulumasui Pe'a</span>
         <button onclick="darkButton()">
             <img src="images/dark.svg" alt="dark mode" id="darkBtn" width="44" height="44">
@@ -33,6 +33,16 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/templesmall.webp" media="(max-width:600px)">
+                <source srcset="images/templemed.webp" media="(max-width:1000px)">
+                <img src="images/temple.webp" alt="la temple hero image">
+            </picture>
+            <div class="herolabel">
+                <p>Los Angeles Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="parentsize">
         <section class="card">
@@ -40,7 +50,7 @@
             <ul>
                 <li>Week 01:<a href="week01/holygrail.html">Holy Grail</a></li>
                 <li>Week 02:</li>
-                <li>Week 03:</li>
+                <li>Week 03:<a href="week03/images/landscape.webp">WebP</a></li>
                 <li>Week 04:</li>
                 <li>Week 05:</li>
                 <li>Week 06:</li>
