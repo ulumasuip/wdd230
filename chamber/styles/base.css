@@ -95,3 +95,43 @@ h2{
 p{
   font-family: lato;
 }
+footer p{
+  text-align: center;
+}
+
+/*Discovery page rules*/
+
+.item1 { grid-area: attractions; }
+.item2 { grid-area: people; }
+.item3 { grid-area: calendar; }
+.item4 { grid-area: imagesDiscovery; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'attractions imagesDiscovery'
+    'people imagesDiscovery'
+    'calendar imagesDiscovery';
+  gap: 10px;
+  background-color: #5A9367;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(241, 250, 238);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+figcaption{
+  font-family: lato;
+  font-size: small;
+}
+
+.information{
+  background-color: rgb(241, 250, 238);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

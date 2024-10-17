@@ -35,29 +35,56 @@
         <div>
             <button id="actionButton">JOIN THE CHAMBER OF COMMERCE</button>
         </div>
-        <section class="current">
-            <h2>Current Events</h2>
-            <p>Here are some Current News articles here in the City</p>
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <p>Here are some updates for your day</p>
-        </section>
-        <section class="spotlight">
-            <h2>Spotlight</h2>
-            <p>Check out these exceptional companies</p>
-        </section>
-        <img src="images/orangemain.webp" alt="main street orange">
-        <img src="images/hockey.webp" alt="honda center ice">
-        <img src="images/angelsstadium.webp" alt="angels baseball field">
-        <img src="images/shopsorange.webp" alt="downtown shops">
-        <img src="images/theblock.webp" alt="the block at orange">
-        <img src="images/orangemap.webp" alt="city map of orange">
+        <div class="grid-container">
+            <div class="item1" class="info">
+                <h2>Attractions</h2>
+                <p>Local attractions</p>
+            </div>
+            <div class="item2" class="info">
+                <h2>People</h2>
+                <p>Who makes up Orange</p>
+            </div>
+            <div class="item3"class="info">
+                <h2>Calendar</h2>
+                <p>Check out these upcomming dates</p>
+            </div>
+            <div class="item4"class="imagesDiscovery">
+                <figure>
+                    <img src="images/orangemain.webp" alt="main street orange">
+                    <figcaption>Fig. 1 - Main Street View</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/hockey.webp" alt="honda center ice">
+                    <figcaption>Fig. 2 - Honda Center Home of the Anaheim Ducks</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/angelsstadium.webp" alt="angels baseball field">
+                    <figcaption>Fig. 3 - Angels Baseball Field</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/shopsorange.webp" alt="downtown shops">
+                    <figcaption>Fig. 4 - Downtown Orange Shops</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/theblock.webp" alt="the block at orange">
+                    <figcaption>Fig. 5 - The Block at Orange Shopping Center</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/orangemap.webp" alt="city map of orange">
+                    <figcaption>Fig. 6 - Map of the City of Orange, California</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="information">
+            <h2>Information</h2>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </div>
     </main>
     <footer>
         <p>	&#169; Ulumasui Pe'a WDD230 Class Project</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/visits.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
 </body>
