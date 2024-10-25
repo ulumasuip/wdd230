@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ulumasui Pe'a">
+    <title>Ulumasui Pe'a - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Ulumasui Pe'a, course assignment portal">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="WDD 230 Home Page">
+    <meta property="og:type" content="Home Page for WDD 230 course work">
+    <meta property="og:image" content="https://media.istockphoto.com/id/637081844/photo/laguna-beach-orange-county.jpg?s=612x612&w=0&k=20&c=6LFfx7cHDpJvk_U0d7KP6JMw6K-m7zzpOqPIqIopuwM=">
+    <meta property="og:url" content="https://ulumasuip.github.io/wdd230/">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="me on drums" width="75" height="100">
+        <span>Ulumasui Pe'a</span>
+        <button onclick="darkButton()">
+            <img src="images/dark.svg" alt="dark mode" id="darkBtn" width="44" height="44">
+        </button>
+    </header>
+    <button id="myButton"></button>
+    <nav>
+        <ul class="menuLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="active"><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset id="personalInformation">
+                <legend>Personal Information</legend>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8}" required></label>
+                <label>Confirm Password* <input type="password" id="confirm-password" name="confirm-password" required></label>
+                <div id="feedback"></div>
+                <label>Email* <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9._%+-]+@byui\\.edu$" placeholder="Please enter a valid email address"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Rating</legend>
+                <label>Rating
+                <div id="rangevalue">1</div>
+                <input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1" list="rangevalues"></label>
+                <datalist id="rangeofvalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+    </main>
+    <footer>
+        <p>	&#169; Ulumasui Pe'a California,U.S.A.</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/darkBtn.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/formvalidation.js"></script>
+</body>
+</html>
