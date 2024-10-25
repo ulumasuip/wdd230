@@ -1,0 +1,26 @@
+:root{
+    font-family: "Gowun Batang", serif;
+    font-size: larger;
+}
+form{
+    padding: 2rem;
+}
+fieldset{
+    padding: 2rem;
+}
+
+input{
+    padding: .5rem;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+input[type="submit"]{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    width: 80%;
+    max-width: 300px;
+    background-color: #FA7ECD;
+    color: #ffffff;
+    box-shadow: 3px 3px;
+}
