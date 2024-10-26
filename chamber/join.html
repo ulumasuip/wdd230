@@ -39,10 +39,12 @@
                 <label>First Name* <input type="text" id="fname" name="fname" required></label>
                 <label>Last Name* <input type="text" id="lname" name="lname"  required></label>
                 <label>Title or Posisition* <input type="text" id="titlepos" name="titlepos" pattern="[A-Za-z0-9]{8}" required></label>
-                <label>Email* <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9._%+-]+@byui\\.edu$" placeholder="Please enter a valid email address"></label>
-                <label>Mobile Phone Number* <input type="telephone" id="phone" name="phone" required></label>
+                <label>Email* <input type="email" id="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@byui\\.edu$" required placeholder="Please enter a valid email address"></label>
+                <label>Mobile Phone Number* <input type="telephone" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required></label>
+                <label>Business/Organization Name* <input type="text" name="busiorg" id="busiorg" pattern="^[a-zA-Z0-9._%+-]+@byui\\.edu$" required></label>
                 <label for="Membership Level">Choose a Membership Level:</label>
-                    <select name="cars" id="cars" placeholder="Choose Membership">
+                    <select name="cars" id="cars">
+                        <option value="choose">Choose Membership</option>
                         <option value="NP">NP Membership is for non profit organizations and there is no fee.</option>
                         <option value="Bronze">Bronze Membership</option>
                         <option value="Silver">Silver Membership</option>
