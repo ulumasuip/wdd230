@@ -135,3 +135,11 @@ figcaption{
   padding: 20px 0;
   font-size: 30px;
 }
+
+.thanks{
+  background-color: #5A9367;
+  text-align: center;
+  padding: 3rem;
+  font-size: xx-large;
+  font-family: lato;
+}
