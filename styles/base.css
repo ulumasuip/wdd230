@@ -143,6 +143,12 @@ h1{
 	font-family: "Gowun Batang", serif;
 	font-weight: 700;
 }
+.weatherinfo{
+   text-align: center;
+}
+#tempature{
+    text-align: center;
+}
 
 #visits {
 	color: navy;
