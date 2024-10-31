@@ -168,11 +168,26 @@ section {
   background-color: #f1faee;
   display: block;
   unicode-bidi: isolate;
+  border-color: #5A9367;
+  border-radius: 45px;
 }
 
 section img{
   max-width: 300px;
   max-height: 300px;
+}
+
+#grid{
+  background-color: #5A9367;
+  color: #f1faee;
+  padding: 1rem;
+  font-size: xx-large;
+}
+#list{
+  background-color: #5A9367;
+  color: #f1faee;
+  padding: 1rem;
+  font-size: xx-large;
 }
 
 @media (min-width: 60em) {
@@ -189,6 +204,10 @@ section img{
       gap: 10px;
       padding: 0.25rem;
       width: 100%;
+      border-radius: 0px;
+  }
+  section img{
+    padding: 2rem;
   }
 }
 
