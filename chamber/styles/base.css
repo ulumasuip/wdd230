@@ -26,6 +26,7 @@ nav li a:hover {
 nav .active{
   background-color: rgba(255,255,255,0.2);
 }
+
 .announcement {
   display: flex;
   justify-content: space-between;
@@ -192,6 +193,7 @@ section {
   unicode-bidi: isolate;
   border-color: #5A9367;
   border-radius: 45px;
+  text-align: center;
 }
 
 section img{
