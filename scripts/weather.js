@@ -1,27 +1,51 @@
-const currentTemp = document.querySelector('#temperature');
-const weatherIcon = document.querySelector('#weather-icon');
-const url = `https://api.openweathermap.org/data/2.5/weather?lat=33.787914&lon=-117.853104&appid=191efa2d68869a89587035fa21c23e4c`;
+const currentTemp = document.querySelector("#current-temp");
+const weatherIcon = document.querySelector("#weather-icon");
+const captionDesc = document.querySelector("#fig1");
 
-async function apiFetch() {
-    try {
-        const response = await fetch(url);
-        if (response.ok) {
-            const data = await response.json();
-            console.log(data);
-            displayResults(data);
-        } else {
-            throw  Error(await response.text());
-        }
-    } catch (error) {
-       console.log(error); 
+
+
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=33.787914&lon=-117.853104&appid=191efa2d68869a89587035fa21c23e4c&units=imperial`;
+
+
+async function weatherapiFetch() {
+  try {
+    const response = await fetch(url);
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data); //Testing only
+      displayResults(data); // uncomment when ready
+    } else {
+      throw Error(await response.text());
     }
+  } catch (error) {
+    console.log(error);
+  }
 }
-apiFetch();
 
 function displayResults(data) {
-    let desc = data.weather[0].description;
-    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', data.weather[0].main);
-    currentTemp.innerHTML = `${data.main.temp}&deg;F - ${desc}`;
+  currentTemp.innerHTML = `${data.main.temp.toFixed(1)}&deg;F`;
+  const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+  let desc = data.weather[0].description;
+  weatherIcon.setAttribute("src", iconsrc);
+  weatherIcon.setAttribute("alt", "weather icon");
+  captionDesc.textContent = `${desc}`;
 }
+
+async function forecastapiFetch() {
+  try {
+    const response = await fetch(url1);
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data); //Testing only
+      displayForecast(data); // uncomment when ready
+    } else {
+      throw Error(await response.text());
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+weatherapiFetch();
+forecastapiFetch();
+forecastdates();
