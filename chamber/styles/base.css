@@ -143,3 +143,52 @@ figcaption{
   font-size: xx-large;
   font-family: lato;
 }
+
+.menu {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: rgb(59, 59, 59);
+  text-align: center;
+}
+
+#cards {
+  display: grid;
+  grid-gap: 5px;
+  align-items: center;
+}
+
+#cards section {
+  text-align: center;
+  font-size: larger;
+}
+
+section {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: #f1faee;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+section img{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+@media (min-width: 60em) {
+  .grid-directory {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 37.5em) {
+  .list-directory section {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      padding: 0.25rem;
+      width: 100%;
+  }
+}
+

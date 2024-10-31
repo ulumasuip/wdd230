@@ -1,0 +1,154 @@
+{
+    "businesses": [
+        {
+            "name": "1886 Brewing",
+            "description": "Brewpubs, Burgers, Sandwiches",
+            "address": "114 N Glassell St, Orange, CA 92866",
+            "phone": "(714) 922-8130",
+            "url": "https://www.1886brewingco.com/",
+            "logo": "https://static.spotapps.co/website_images/ab_websites/104524_website/logo_2.png",
+            "membership": "Gold",
+            "since": "2024"
+        },
+        {
+            "name": "Afters Ice Cream",
+            "description": "Ice Cream & Frozen Yogurt",
+            "address": "117 N. Glassell Street, Orange, CA 92866",
+            "phone": "(81) 12398734",
+            "url": " https://www.aftersicecream.com/",
+            "logo": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/341110220_192785436555267_5500153927128199956_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VahqDF9leAwQ7kNvgF41N8p&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=A1LezO0kQjkOtGuD9AMHAaX&oh=00_AYBCnq3yFVNwzulfHaKs7lTRxAxSHETXDmBFz5AYe3ngnQ&oe=6728FDB7",
+            "membership": "Gold",
+            "since": "2014"
+        },
+        {
+            "name": "R&B Tea",
+            "description": "Tea Room, Breakfast & Brunch, Dinner Theater",
+            "address": "212 E. Chapman Avenue, Orange, CA 92866",
+            "phone": "(714) 363-3458",
+            "url": "https://www.yelp.com/biz/r-and-b-tea-orange-8",
+            "logo": "https://s3-media0.fl.yelpcdn.com/bphoto/XouswRaeFGWfZZUdkOsQtA/o.jpg",
+            "membership": "Gold",
+            "since": "2024"
+        },
+        {
+            "name": "Pizza Press",
+            "description": "Pizza, Salad",
+            "address": "155 N. Glassell Street, Orange, CA 92866",
+            "phone": "(714) 888-5941",
+            "url": " https://www.thepizzapress.com/location/orange-ca/",
+            "logo": "https://thepizzapress.com/wp-content/uploads/2017/10/Logo-Vert-59920ed448cdc-59e0e6d027d84.png",
+            "membership": "Gold",
+            "since": "2017"
+        },
+        {
+            "name": "Ojai Burger",
+            "description": "Burgers, Chicken Shop, Japanese",
+            "address": "238 W. Chapman Avenue, Suite 100, Orange, CA 92866",
+            "phone": "(657) 221-0619",
+            "url": " www.eatojaiburger.com",
+            "logo": "https://static.wixstatic.com/media/16495b_9ef6a17dcbce4bae98bbc7e6ead5f41d~mv2.png/v1/fill/w_226,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Ojai%20Burger_final_4_12-04.png",
+            "membership": "Gold",
+            "since": ""
+        },
+        {
+            "name": "Dragonfly Shops & Gardens",
+            "description": "Nurseries, Gardening, Arts and Crafts Classes",
+            "address": "260 N. Glassell Street, Orange, CA 92866",
+            "phone": "(714) 289-4689",
+            "url": "http://www.dragonflyshopsandgardens.com/",
+            "logo": "https://www.dragonflyshopsandgardens.com/uploads/1/1/9/8/11985609/published/dragonfly-business-card.jpg?1493266931",
+            "membership": "Gold",
+            "since": "2005"
+        },
+        {
+            "name": "Elsewhere Vintage",
+            "description": "Used, Vintage, Consignment, Costumes",
+            "address": "105 W. Chapman Avenue, Orange, CA 92866",
+            "phone": "(714) 771-2116",
+            "url": "https://www.facebook.com/elsewherevintage",
+            "logo": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/305658834_615190989969525_2314040169598249138_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Vc87krZ6oCUQ7kNvgEuyv2U&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=Aa9pvlzVolmijTagSC9InzO&oh=00_AYDt0Vj9cm7Z-7kcR6ode1jI7RO_X_nLfpiX8ouM_shdUw&oe=672921D7",
+            "membership": "Gold",
+            "since": "2012"
+        },
+        {
+            "name": "Army Navy Store",
+            "description": "Hobby Shops, Outdoor Gear",
+            "address": "131 S. Glassell Street, Orange, CA 92866",
+            "phone": "(714) 639-7910",
+            "url": " http://www.orangearmynavy.com/",
+            "logo": "http://www.orangearmynavy.com/uploads/2/1/0/8/2108660/1343844403.png",
+            "membership": "Gold",
+            "since": "1955"
+        },
+        {
+            "name": "Matoska Trading Company, Inc.",
+            "description": "Spiritual, Arts & Crafts, Art Gallery",
+            "address": "123 N. Glassell Street, Orange, CA 92866",
+            "phone": "(714) 516-9940",
+            "url": "https://matoska.com/",
+            "logo": "https://matoska.com/graphics/home/matologo_2011_long_duo_trans.png",
+            "membership": "Gold",
+            "since": "1997"
+        },
+        {
+            "name": "Mr. C's Rare Records",
+            "description": "Music, DVDs",
+            "address": "148 N. Glassell Street, Orange, CA 92866",
+            "phone": "(714) 532-3835",
+            "url": "https://www.facebook.com/p/Mr-Cs-Rare-Records-100066723931715/",
+            "logo": "https://s3-media0.fl.yelpcdn.com/bphoto/J3bELG_qK2KBTxZ2tk0JCA/o.jpg",
+            "membership": "Gold",
+            "since": "1977"
+        },
+        {
+            "name": "CarLab",
+            "description": "Advanced Automotive Consulting",
+            "address": "217 E. Chapman Avenue, Orange, CA 92866",
+            "phone": "(714) 532-0192",
+            "url": "https://www.thecarlab.com/",
+            "logo": "https://images.squarespace-cdn.com/content/v1/5ab2c7722714e5089dab7125/1526337193813-3T9XXB4LHUKW9OYST56D/2015_new_logo_carlab_NO+BOTTOM+for+Website4.png?format=1500w",
+            "membership": "Gold",
+            "since": "1999"
+        },
+        {
+            "name": "Nail Salon, Skin Care",
+            "description": "Nail Salon, Skin Care",
+            "address": "146 S. Glassell Street, Orange, CA 92866",
+            "phone": "(714) 363-3208",
+            "url": "https://www.lollipopnailstudio.com/",
+            "logo": "https://images.squarespace-cdn.com/content/v1/5a94773e266c073e14a53bb1/1519842821813-4XUR6HRJB6CFD0CDG9JK/Lollipop.FinalLogo.Red.png?format=500w",
+            "membership": "Gold",
+            "since": "2012"
+        },
+        {
+            "name": "Orange Paint Store",
+            "description": "Paint Store",
+            "address": "396 W Chapman Avenue, Suite A, Orange, CA 92866",
+            "phone": "(714) 538-3052",
+            "url": "https://orangepaintstore.com/",
+            "logo": "https://s3-media0.fl.yelpcdn.com/bphoto/NPO4-GokmfbnALQ4aZ98Xw/o.jpg",
+            "membership": "Gold",
+            "since": "2020"
+        },
+        {
+            "name": "Circle City Barbers",
+            "description": "Barber",
+            "address": "133 W. Chapman Avenue, Orange, CA 92866",
+            "phone": "(714) 453-9765",
+            "url": "https://www.yelp.com/biz/circle-city-barbers-orange-2",
+            "logo": "https://s3-media0.fl.yelpcdn.com/bphoto/RZ3_T_RvybrexRcZutlyjg/o.jpg",
+            "membership": "Gold",
+            "since": "2018"
+        },
+        {
+            "name": "Nokoma Realty Company",
+            "description": "Real Estate Services",
+            "address": "173 N. Glassell Street, Orange, CA 92866",
+            "phone": "(714) 543-7800",
+            "url": " http://www.nakomarealty.com/",
+            "logo": "http://nakomarealty.com/wp-content/themes/nakomarealty2.com/images/header_logo_03.png",
+            "membership": "Gold",
+            "since": "2024"
+        }
+    ]
+}
