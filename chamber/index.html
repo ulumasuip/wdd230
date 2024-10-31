@@ -16,7 +16,7 @@
 <body>
     <header>
     </header>
-    <button id="myButton"></button>
+    <button id="myButton">MENU</button>
     <nav>
         <ul class="menuLinks">
             <li><a href="https://ulumasuip.github.io/wdd230/">Home</a></li>
@@ -25,7 +25,7 @@
             <li><a href="join.html">Form</a></li>
         </ul>
     </nav>
-    <div class="heroImage" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/orangehero.png);">
+    <div class="heroImage" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/orangehero.jpg);">
         <div class="heroText">
           <h1>The City of Orange</h1>
           <p>Chamber of Commerce</p>
@@ -36,17 +36,17 @@
             <div>
                 Announcement: Join us Wednesday at 7pm for our weekly meeting at Downtown Orange Center Circle❗
             </div>
-            <button class="close-button" onclick="closeButton()">Close</button>
+            <button name="closeButton" class="close-button" onclick="closeButton()">Close</button>
         </div>
         <div>
             <button id="actionButton">JOIN THE CHAMBER OF COMMERCE</button>
         </div>
         <section class="current">
             <h2>Current Events</h2>
-            <img src="images/calendar.webp" alt="calendar image">
+            <img src="images/calendar.webp" alt="calendar image" width="150" height="150">
             <p>Here are some Current News articles here in the City</p>
             <h2>Upcoming Event:</h2>
-            <img src="images/spook.webp" alt="spooktacular orange">
+            <img src="images/spook.webp" alt="spooktacular orange" width="auto" height="150">
             <h2><strong>Event Title: </strong>Orange Halloween Spooktacular!</h2>
             <p><strong>Date and Time: </strong> October 31, 2024, 5:00 PM - 10:00 PM</p>
             <p><strong>Location: </strong>Downtown Orange Circle</p>
@@ -62,17 +62,17 @@
                 <h2>Today</h2>
                 <p><span id="current-temp"></span> </p>
                 <figure>
-                    <img id="weather-icon" alt="Weather Icon">
+                    <img id="weather-icon" alt="Weather Icon" width="114" height="114">
                     <figcaption id="fig1" class="weather-fig-captions"></figcaption>
                 </figure>
             </div>
             <h2>Forecast 3 days</h2>
-            <section class="weather" id="weather-forecast">
+            <section class="weather" id="weather-forecast" >
                 <div>
                     <h2><span id="forecast-day-1"></span> </h2>
                     <p><span id="forecast-temp-1"></span> </p>
                     <figure>
-                        <img id="weather-icon1" class="w-icon" alt="weather icon">
+                        <img id="weather-icon1" class="w-icon" alt="weather icon" width="114" height="114">
                         <figcaption id="fig2" class="weather-fig-captions"></figcaption>
                     </figure>
                 </div>
@@ -80,7 +80,7 @@
                     <h2><span id="forecast-day-2"></span> </h2>
                     <p><span id="forecast-temp-2"></span> </p>
                     <figure>
-                        <img id="weather-icon2" class="w-icon" alt="Weather Icon">
+                        <img id="weather-icon2" class="w-icon" alt="Weather Icon" width="114" height="114">
                         <figcaption id="fig3" class="weather-fig-captions"></figcaption>
                     </figure>
                 </div>
@@ -88,7 +88,7 @@
                     <h2><span id="forecast-day-3"></span></h2>
                     <p><span id="forecast-temp-3"></span></p>
                     <figure>
-                        <img id="weather-icon3" class="w-icon" alt="Weather Icon">
+                        <img id="weather-icon3" class="w-icon" alt="Weather Icon" width="114" height="114">
                         <figcaption id="fig4" class="weather-fig-captions"></figcaption>
                     </figure>
                 </div>
@@ -98,7 +98,7 @@
             <h2>Spotlight</h2>
             <p>Check out these exceptional companies</p>
             <section>
-                <img src="https://static.spotapps.co/website_images/ab_websites/104524_website/logo_2.png" loading="lazy" alt="1886 logo">
+                <img src="https://static.spotapps.co/website_images/ab_websites/104524_website/logo_2.png" loading="lazy" alt="1886 logo" width="auto" height="150">
                 <h2>1886 Brewing</h2>
                 <p>Brewpubs, Burgers, Sandwiches</p>
                 <p>114 N Glassell St, Orange, CA 92866.</p>
@@ -107,7 +107,7 @@
                 <a href="https://www.1886brewingco.com/" target="_blank">https://www.1886brewingco.com/</a>
             </section>
             <section>
-                <img src="http://www.orangearmynavy.com/uploads/2/1/0/8/2108660/1343844403.png" loading="lazy" alt="Army Navy Store Logo">
+                <img src="http://www.orangearmynavy.com/uploads/2/1/0/8/2108660/1343844403.png" loading="lazy" alt="Army Navy Store Logo" width="auto" height="150">
                 <h2>Army Navy Store</h2>
                 <p>Hobby Shops, Outdoor Gear</p>
                 <p>131 S. Glassell Street, Orange, CA 92866</p>
@@ -116,7 +116,7 @@
                 <a href="http://www.orangearmynavy.com/" target="_blank">http://www.orangearmynavy.com/</a>
             </section>
             <section>
-                <img src="https://images.squarespace-cdn.com/content/v1/5a94773e266c073e14a53bb1/1519842821813-4XUR6HRJB6CFD0CDG9JK/Lollipop.FinalLogo.Red.png?format=500w" loading="lazy" alt="Lollipop Nail Studio Logo">
+                <img src="https://images.squarespace-cdn.com/content/v1/5a94773e266c073e14a53bb1/1519842821813-4XUR6HRJB6CFD0CDG9JK/Lollipop.FinalLogo.Red.png?format=500w" loading="lazy" alt="Lollipop Nail Studio Logo" width="auto" height="150">
                 <h2>Lollipop Nail Studio</h2>
                 <p>Nail Salon, Skin Care</p>
                 <p>146 S. Glassell Street, Orange, CA 92866</p>

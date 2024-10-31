@@ -33,7 +33,7 @@ nav .active{
   align-items: center;
   text-align: center;
   background-color: #5A9367;
-  color: white;
+  color: #1a0d1c;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -44,7 +44,7 @@ nav .active{
   cursor: pointer;
   padding: 5px;
   background-color: #fff;
-  color: #5A9367;
+  color: #1a0d1c;
   border: none;
   border-radius: 3px;
   font-weight: bold;
@@ -54,6 +54,7 @@ nav .active{
   border: none;
   background-color: #494947;
   cursor: pointer;
+  color: #ddd;
   width: 100%;
   text-align: left;
   padding: .25rem 2vw;
