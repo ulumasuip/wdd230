@@ -32,6 +32,12 @@
         </div>
       </div>
     <main>
+        <div id="announcement" class="announcement">
+            <div>
+                Announcement: Join us Wednesday at 7pm for our weekly meeting at Downtown Orange Center Circle❗
+            </div>
+            <button class="close-button" onclick="closeButton()">Close</button>
+        </div>
         <div>
             <button id="actionButton">JOIN THE CHAMBER OF COMMERCE</button>
         </div>
@@ -40,15 +46,53 @@
             <p>Here are some Current News articles here in the City</p>
             <img src="images/current.png" alt="orange_news_placeholder" width="500" height="500">
         </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <p>Here are some updates for your day</p>
-            <img src="images/weather.png" alt="orange_weather_placeholder" width="500" height="500">
-        </section>
+        <section id="weather-card">
+            <h2> Weather Information</h2>
+            <h2>Orange, CA</h2>
+            <div class="weather">
+                <h2>Today</h2>
+                <p><span id="current-temp"></span> </p>
+                <figure>
+                    <img id="weather-icon" alt="Weather Icon">
+                    <figcaption id="fig1" class="weather-fig-captions"></figcaption>
+                </figure>
+            </div>
+            <h2>Forecast 3 days</h2>
+            <section class="weather" id="weather-forecast">
+                <div>
+                    <h2><span id="forecast-day-1"></span> </h2>
+                    <p><span id="forecast-temp-1"></span> </p>
+                    <figure>
+                        <img id="weather-icon1" class="w-icon" alt="weather icon">
+                        <figcaption id="fig2" class="weather-fig-captions"></figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h2><span id="forecast-day-2"></span> </h2>
+                    <p><span id="forecast-temp-2"></span> </p>
+                    <figure>
+                        <img id="weather-icon2" class="w-icon" alt="Weather Icon">
+                        <figcaption id="fig3" class="weather-fig-captions"></figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h2><span id="forecast-day-3"></span> </h2>
+                    <p><span id="forecast-temp-3"></span> </p>
+                    <figure>
+                        <img id="weather-icon3" class="w-icon" alt="Weather Icon">
+                        <figcaption id="fig4" class="weather-fig-captions"></figcaption>
+                    </figure>
+                </div>
+            </section>
+        </section>>
         <section class="spotlight">
             <h2>Spotlight</h2>
             <p>Check out these exceptional companies</p>
-            <img src="images/spotlight.png" alt="orange_spotlight_placeholder" width="500" height="500">
+            <div class="menu">
+                <button id="grid">Grid</button>
+                <button id="list">List</button>
+            </div>
+            <article id="cards" class="grid-directory"></article>
         </section>
     </main>
     <footer>
@@ -57,5 +101,8 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
